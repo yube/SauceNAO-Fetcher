@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "SauceNAO Fetcher",
+  "version": "1",
+  "icons": {
+    "16": "saucenao.png",
+    "32": "saucenao.png",
+    "48": "saucenao.png",
+    "128": "saucenao.png"
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
